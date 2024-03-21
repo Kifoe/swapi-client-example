@@ -21,7 +21,9 @@ def get_film_info(id):
     for index, starship in enumerate(starships, 1):
         print(f'{index} {starship.name}')
 
-
+    print(f"Види істот: ")
+    for index, specie in enumerate(species, 1):
+        print(f'{index} {specie.name}')
 
 if __name__ == '__main__':
     film_id = input("Введіть ідентифікатор фільму: ")
