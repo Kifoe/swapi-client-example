@@ -12,6 +12,12 @@ def get_film_info(id):
     for index, character in enumerate(characters, 1):
         print(f'{index} {character.name} з планети {character.get_homeworld().name}')
 
+    print(f"Транспортні засоби: ")
+
+    for index, vehicle in enumerate(vehicles, 1):
+        print(f'{index} {vehicle.name}')
+
+
 
 if __name__ == '__main__':
     film_id = input("Введіть ідентифікатор фільму: ")
