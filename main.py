@@ -17,6 +17,10 @@ def get_film_info(id):
     for index, vehicle in enumerate(vehicles, 1):
         print(f'{index} {vehicle.name}')
 
+    print(f"Космічні кораблі: ")
+    for index, starship in enumerate(starships, 1):
+        print(f'{index} {starship.name}')
+
 
 
 if __name__ == '__main__':
